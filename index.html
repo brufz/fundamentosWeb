@@ -4,46 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Meu perfil</title>
   </head>
   <body>
-    <ul>
+    <ul id="menu">
       <li>
-      <a href="index.html">Home</a>
+        <a href="index.html">Home</a>
       </li>
       <li>
         <a href="contato.html">Contato</a>
-        </li>
+      </li>
     </ul>
-    <h1>Sobre mim</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates
-      id tempora iusto nulla soluta atque illum, inventore illo cupiditate omnis
-      distinctio. Maxime voluptate culpa voluptates suscipit, excepturi vel
-      quibusdam.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nemo
-      laudantium? Odit earum sit facere, repellat dolores exercitationem
-      nesciunt alias rem. Quisquam veritatis aspernatur perferendis voluptatem
-      doloremque voluptatibus velit iusto.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis,
-      similique ipsa temporibus optio quo accusantium sint sequi deleniti ex
-      odit eius. Saepe eligendi tempore deserunt delectus eius, eos laborum.
-    </p>
-    <img src="assets/fotoPessoal.jpeg" alt="Foto da criadora deste conteúdo" />
 
-    <h2>Ouça para relaxar</h2>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/dNGkWXGFm7Q"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <h1 class="center">Sobre mim</h1>
+    <div class="container">
+      <div>
+        <img
+          class="br-50 wh-300 p-30"
+          src="assets/fotoPessoal.jpeg"
+          alt="Foto da criadora deste conteúdo"
+        />
+      </div>
+      <div class="p-30 md-50">
+        <p class="justify">
+          Que bom te ver aqui! Seja bem-vindo(a).
+        </p>
+        <div class="justify">Meu nome é Bruna Franchi e hoje estou em transição de carreira para a área da tecnologia. Aqui vou te contar um pouquinho mais sobre meus aprendizados...</div>
+        <p class="justify">
+         Comecei a transição de carreira estudando HTML e CSS de forma auto-didata, e assim me apaixonei pela área da programação. Comecei a estudar java também por um bootcamp com aulas gravadas, que me interessou bastante também. 
+        </p>
+        <div class="justify">
+          Foi aí que passei em um outro bootcamp, da Generation Brasil, com aulas síncronas e duração de três meses, com imersão em Java, Spring Boot, banco de dados MySQL, uso de postman, além de metodologia ágil Scrum, JUnit e a parte do front-end, que é onde estou agora, com conteúdos sobre HTML, CSS, JavaScript e react.
+        </div>
+        <div class="justify">Tenho alguns projetos no github, onde você pode acompanhar meu desenvolvimento. Ficarei feliz com sua visita em meu portifólio.</div>
+      </div>
+     
+    </div>
+
+    <h2 class="center">Ouça para relaxar</h2>
+    <div class="container">
+      <iframe class="mb-50"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dNGkWXGFm7Q"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr />
+    <footer>
+      <div class="container">
+        <a href="https://www.github.com/brufz" target="_blank"
+          ><img
+            class="tm p-30"
+            src="assets/github (1).png"
+            alt="símbolo github"
+        /></a>
+        <a href="https://www.linkedin.com/in/bruna-franchi" target="_blank"
+          ><img
+            class="tm p-30"
+            src="assets/linkedin.png"
+            alt="símbolo linkedin"
+        /></a>
+      </div>
+      <p class="center">Todos os direitos reservados Bruna Franchi &copy</p>
+    </footer>
   </body>
 </html>
